@@ -1,0 +1,87 @@
+Script started on 2023-09-04 22:32:40-04:00 [TERM="xterm-256color" TTY="/dev/pts/32" COLUMNS="88" LINES="13"]
+]0;ajlap@ccc-app-p-u15:~/CS3013/Project 1[?2004h[ajlap@ccc-app-p-u15 Project 1]$ ./doit wc foo.txt
+[?2004l]0;ajlap@ccc-app-p-u15:~/CS3013/Project 1[?2004h[ajlap@ccc-app-p-u15 Project 1]$ ./doit
+[?2004lCustomShell
+CustomShell@ccc-app-p-u15:/home/ajlap/CS3013/Project 1==> ./doit wc foo.txt
+INFO: User CPU Time (ms) = 0
+INFO: System CPU Time (ms) = 1
+INFO: Wall Clock Time (ms) = 2
+INFO: Max Resident Set Size (bytes) = 3640
+INFO: Page Faults = 0
+INFO: Page Reclaims = 147
+INFO: Voluntary Context Switches = 2
+INFO: Involuntary Context Switches = 0
+CustomShell@ccc-app-p-u15:/home/ajlap/CS3013/Project 1==> exit
+Exiting the shell...
+]0;ajlap@ccc-app-p-u15:~/CS3013/Project 1[?2004h[ajlap@ccc-app-p-u15 Project 1]$ [?2004l
+exit
+
+Script done on 2023-09-04 22:40:29-04:00 [COMMAND_EXIT_CODE="0"]
+429
+INFO: Voluntary Context Switches = 9
+INFO: Involuntary Context Switches = 1
+
+CustomShell@ccc-app-p-u15:/home/ajlap/CS3013/Project 1==> ls
+build  dir  doit  doit.cpp  foo.txt  Makefile  typescript
+INFO: User CPU Time (ms) = 2
+INFO: System CPU Time (ms) = 4
+INFO: Wall Clock Time (ms) = 2
+INFO: Max Resident Set Size (bytes) = 3640
+INFO: Page Faults = 0
+INFO: Page Reclaims = 560
+INFO: Voluntary Context Switches = 11
+INFO: Involuntary Context Switches = 2
+
+CustomShell@ccc-app-p-u15:/home/ajlap/CS3013/Project 1==> set prompt = myprompt:
+Updated shell prompt to: myprompt:
+
+myprompt:@ccc-app-p-u15:/home/ajlap/CS3013/Project 1==> exit
+Exiting the shell...
+INFO: User CPU Time (ms) = 5
+INFO: System CPU Time (ms) = 4
+INFO: Wall Clock Time (ms) = 192895
+INFO: Max Resident Set Size (bytes) = 3708
+INFO: Page Faults = 0
+INFO: Page Reclaims = 763
+INFO: Voluntary Context Switches = 25
+INFO: Involuntary Context Switches = 20
+
+CustomShell@ccc-app-p-u15:/home/ajlap/CS3013/Project 1==> sleep 5 &
+Running in the background.
+[Background Process] 1: 1026354 sleep 5 &
+
+CustomShell@ccc-app-p-u15:/home/ajlap/CS3013/Project 1==> jobs
+INFO: User CPU Time (ms) = 5
+INFO: System CPU Time (ms) = 5
+INFO: Wall Clock Time (ms) = 0
+INFO: Max Resident Set Size (bytes) = 3708
+INFO: Page Faults = 0
+INFO: Page Reclaims = 863
+INFO: Voluntary Context Switches = 29
+INFO: Involuntary Context Switches = 20
+waitpid: No child processes
+
+CustomShell@ccc-app-p-u15:/home/ajlap/CS3013/Project 1==> jobs
+INFO: User CPU Time (ms) = 7
+INFO: System CPU Time (ms) = 8
+INFO: Wall Clock Time (ms) = 1
+INFO: Max Resident Set Size (bytes) = 3708
+INFO: Page Faults = 0
+INFO: Page Reclaims = 1174
+INFO: Voluntary Context Switches = 43
+INFO: Involuntary Context Switches = 21
+waitpid: No child processes
+
+CustomShell@ccc-app-p-u15:/home/ajlap/CS3013/Project 1==> cat foo.txt
+INFO: User CPU Time (ms) = 7
+INFO: System CPU Time (ms) = 10
+INFO: Wall Clock Time (ms) = 1
+INFO: Max Resident Set Size (bytes) = 3708
+INFO: Page Faults = 0
+INFO: Page Reclaims = 1344
+INFO: Voluntary Context Switches = 46
+INFO: Involuntary Context Switches = 21
+waitpid: No child processes
+
+CustomShell@ccc-app-p-u15:/home/ajlap/CS3013/Project 1==> exit
+Exiting the shell...

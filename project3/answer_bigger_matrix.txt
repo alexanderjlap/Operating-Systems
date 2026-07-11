@@ -1,0 +1,2 @@
+Invalid input - 3, 4, or 5 arguments must be given
+Format: ./life threads filename generations print input
